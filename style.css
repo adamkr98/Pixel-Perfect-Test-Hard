@@ -53,7 +53,7 @@ body {
         /* border: orange solid 2px; */
 
         width: 29rem;
-        height: 20rem;
+        height: 21rem;
 
         margin-left: 1rem;
         /* margin-bottom: 2rem; */
@@ -79,14 +79,14 @@ body {
         /* border: rgb(255, 0, 149) solid 2px; */
         color: #282934;
         width: 14rem;
-        line-height: 2.9rem;
+        line-height: 3.5rem;
 
-        padding-left: 0.6rem;
+        padding-left: 1.7rem;
         /* margin-top: 3.2rem; */
         margin-left: 3.9rem;
         
 
-        font-size: 3rem;
+        font-size: 3.3rem;
         font-family: 'Playfair Display', serif;
         font-weight: 100;
 
@@ -100,7 +100,7 @@ body {
         width: fit-content;
         color: #282934;
      
-        padding-left: 0.6rem;
+        padding-left: 1.7rem;
         /* margin-top: 3.2rem; */
         margin-left: 3.9rem;
 
@@ -119,11 +119,11 @@ body {
 
         width: 78%;
         color: #282934;
-        padding-left: 0.6rem;
+        padding-left: 1.7rem;
         margin-top: 2.3rem;
         margin-left: 3.9rem;
 
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'Urbanist', sans-serif;
         /* font-weight: 500;  didnt found the correct size for this typo*/
         line-height: 1.2rem;
@@ -132,6 +132,7 @@ body {
     .socials {
         /* border: red solid 2px; */
         width: 26%;
+        padding-left: 1.2rem;
         margin-top: 1rem;
         margin-left: 3.9rem;
 
