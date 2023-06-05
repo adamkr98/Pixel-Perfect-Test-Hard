@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    border: blue solid 2px;
+    background-color: #FFFFFF;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide {
+    border: red solid 2px;
+    width: 49%;
+    height: 100vh;
+}
+
+    .photo {
+        width: 94%;
+    }
+
+.righSide {
+    border: red solid 2px;
+    background-color: #FFFFFF;
+    width: 51%;
+    height: 100vh;
+}
+
+    .nameContainer {
+        border: blue solid 2px;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        border: orange solid 2px;
+
+        width: 30rem;
+
+        font-size: 6.5rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: 200;
+
+        margin-left: 25rem;
+        margin-top: 23rem;
+    }
+
+    .subTitle {
+        
+    }
