@@ -4,8 +4,8 @@
 }
 
 body {
-    /* border: blue solid 2px; */
-    background-color: #FFFFFF;
+    /* border: blue solid 2px; this color isnt the same as in the example bc when checked with ColorZilla and applied in my code the difference wasnt visile for some reason....???*/
+    background-color: #eeeeea;
     width: 100%;
 
     display: flex;
@@ -26,19 +26,22 @@ body {
 }
 
     .photo {
-        width: 73.5%;
+        width: 94%;
 
-        padding-left: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-left: 0.7rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
 
     }
 
 .rightSide {
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
     /* border: rgb(255, 16, 135) dashed 2px; */
     width: 55%;
     height: 100vh;
+    padding-left: 1rem;
+    margin-top: 0.7rem;
+    padding-bottom: 6.5rem;
 
     display: flex;
     flex-direction: column;
@@ -49,11 +52,12 @@ body {
     .textContainer {
         /* border: orange solid 2px; */
 
-        width: 25rem;
-        height: 30rem;
+        width: 29rem;
+        height: 20rem;
 
         margin-left: 1rem;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
+       
         
         display: flex;
         flex-direction: column;
@@ -62,8 +66,9 @@ body {
 
     .titleContainer {
         /* border: blue dashed 2px; */
+
         width: 100%;
-        height: 11rem;
+        height: 24rem;
 
         display: flex;
         flex-direction: column;
@@ -72,8 +77,13 @@ body {
 
     .name {
         /* border: rgb(255, 0, 149) solid 2px; */
-
+        color: #282934;
         width: 14rem;
+        line-height: 2.9rem;
+
+        padding-left: 0.6rem;
+        /* margin-top: 3.2rem; */
+        margin-left: 3.9rem;
         
 
         font-size: 3rem;
@@ -88,9 +98,13 @@ body {
         /* border: red solid 2px; */
 
         width: fit-content;
+        color: #282934;
      
+        padding-left: 0.6rem;
+        /* margin-top: 3.2rem; */
+        margin-left: 3.9rem;
 
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 600;
         
@@ -103,37 +117,35 @@ body {
     .text {
         /* border: rgb(72, 100, 40) solid 2px; */
 
-        width: 100%;
+        width: 78%;
+        color: #282934;
+        padding-left: 0.6rem;
+        margin-top: 2.3rem;
+        margin-left: 3.9rem;
 
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         font-family: 'Urbanist', sans-serif;
+        /* font-weight: 500;  didnt found the correct size for this typo*/
+        line-height: 1.2rem;
     }
 
     .socials {
         /* border: red solid 2px; */
-        width: 40%;
+        width: 26%;
+        margin-top: 1rem;
+        margin-left: 3.9rem;
 
         display: flex;
         justify-content: space-between;
     }
 
-        .twitterLogo {
-            /* border: blue solid 2px; */
-
-            width: 2.5rem;
-            height: 2.5rem;
-        }
-
-        .instagramLogo {
-            /* border: blue solid 2px; */
-
-            width: 2.5rem;
-            height: 2.5rem;
-        }
-
+        .twitterLogo,
+        .instagramLogo,
         .linkedinLogo {
             /* border: blue solid 2px; */
 
-            width: 2.5rem;
-            height: 2.5rem;
+            width: 2rem;
+            height: 2rem;
         }
+
+       
